@@ -69,3 +69,17 @@ footer img {
 .not-perfect-square {
   background-color: #f1a6a6;
 }
+
+/* Estilos para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+  body {
+    font-size: 14px;
+  }
+}
+
+/* Estilos para tablets */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  body {
+    font-size: 16px;
+  }
+}
